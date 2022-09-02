@@ -29,20 +29,23 @@
             </a>
           </nav>
           <ul class="menu list">
-            <li class="menu-item">
+            <li class="menu-item-here">
               <a class="menu-link link" href="">Студія</a>
             </li>
-            <li class="menu-item">
+            <li>
               <a class="menu-link link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="menu-item">
+            <li>
               <a class="menu-link link" href="">Контакти</a>
             </li>
           </ul>
         </div>
         <ul class="contact list">
           <li class="contact-item contact-item-first">
-            <a class="contact-email-phone link" href="mailto:info@devstudio.com">
+            <a
+              class="contact-email-phone link"
+              href="mailto:info@devstudio.com"
+            >
               <svg
                 class="icon-contact"
                 aria-label="електронна пошта"
@@ -78,7 +81,7 @@
           <div class="container">
             <h1 class="title-first">Ефективні рішення для вашого бізнесу</h1>
 
-            <button type="button" class="button button-text">
+            <button type="button" class="button button-text" data-modal-open >
               Замовити послугу
             </button>
           </div>
@@ -109,11 +112,11 @@
             </li>
             <li class="content-our-advantages">
               <div class="bgc-advantages">
-                <svg 
-                class="icon-our-advantages" 
-                aria-label="годинник"
-                width="67px"
-                height="70px"
+                <svg
+                  class="icon-our-advantages"
+                  aria-label="годинник"
+                  width="67px"
+                  height="70px"
                 >
                   <use href="./images/sprite.svg#icon-clock"></use>
                 </svg>
@@ -126,10 +129,11 @@
             </li>
             <li class="content-our-advantages">
               <div class="bgc-advantages">
-                <svg class="icon-our-advantages"
-                 aria-label="графік"
-                 width="70px"
-                height="54px"
+                <svg
+                  class="icon-our-advantages"
+                  aria-label="графік"
+                  width="70px"
+                  height="54px"
                 >
                   <use href="./images/sprite.svg#icon-diagram"></use>
                 </svg>
@@ -141,10 +145,11 @@
             </li>
             <li class="content-our-advantages">
               <div class="bgc-advantages">
-                <svg class="icon-our-advantages" 
-                aria-label="графік"
-                width="70px"
-                height="70px"
+                <svg
+                  class="icon-our-advantages"
+                  aria-label="графік"
+                  width="70px"
+                  height="70px"
                 >
                   <use href="./images/sprite.svg#icon-astronaut"></use>
                 </svg>
@@ -531,8 +536,8 @@
                   width="106px"
                   height="60px"
                 >
-                  <use href="./images/sprite.svg#icon-logo_4"></use>
-                </svg></a>
+                  <use href="./images/sprite.svg#icon-logo_4"></use></svg
+              ></a>
             </li>
 
             <li class="client-item">
@@ -544,8 +549,8 @@
                   width="106px"
                   height="60px"
                 >
-                  <use href="./images/sprite.svg#icon-logo_5"></use>
-                </svg></a>
+                  <use href="./images/sprite.svg#icon-logo_5"></use></svg
+              ></a>
             </li>
             <li class="client-item">
               <a class="client-link link" href=""
@@ -556,8 +561,8 @@
                   width="106px"
                   height="60px"
                 >
-                  <use href="./images/sprite.svg#icon-logo_6"></use>
-                </svg></a>
+                  <use href="./images/sprite.svg#icon-logo_6"></use></svg
+              ></a>
             </li>
           </ul>
         </div>
@@ -661,5 +666,16 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden " data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-icon" width="11px" height="11px">
+            <use href="./images/sprite.svg#icon-x"</use>
+          </svg>
+        </button>
+      </div>
+    </div>
+     <script src="./js/modal.js"></script>
   </body>
 </html>
