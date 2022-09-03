@@ -714,7 +714,7 @@ body {
   transform: translateY(0%);
 }
 
-.work-portfolio-overlay{
+/* .work-portfolio-overlay{
  position: absolute;
  top: 0%;
  bottom: 0;
@@ -734,12 +734,12 @@ body {
  line-height: 1.56;
  letter-spacing: 0.03em;
  color: #FFFFFF; 
-}
+} */
 
-.work-portfolio-link:hover .work-portfolio-overlay,
+/* .work-portfolio-link:hover .work-portfolio-overlay,
 .work-portfolio-link:focus .work-portfolio-overlay {
   transform: translateY(0%);
-}
+} */
 
 
 .work-portfolio-link:hover,
